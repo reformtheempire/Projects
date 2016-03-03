@@ -31,7 +31,7 @@ public class MessengerApp {
 	
 	private JFrame frmAgnesIm;
 	public static String username = "";
-	public static String server = "http://server.mather.ch:1000/";
+	public static String server = "http://server.mather.ch:25569/";
 	private JButton refreshButton;
 
 	/**
