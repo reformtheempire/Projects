@@ -1,5 +1,5 @@
 package gui.messenger.auth;
-eb636K60
+
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 
