@@ -9,29 +9,25 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
 
-import javax.swing.JFrame;
-import javax.swing.JTextPane;
-import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.JPanel;
+import javax.swing.JTextPane;
 import javax.swing.border.TitledBorder;
 
 import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringEscapeUtils;
-import org.apache.commons.lang3.StringUtils;
 
 import gui.messenger.auth.UserAuth;
-
-import javax.swing.JCheckBox;
 
 public class MessengerApp {
 
 	
 	private JFrame frmAgnesIm;
 	public static String username = "";
-	public static String server = "http://server.mather.ch:25569/";
+	public static String server = "http://localhost:25569/";
 	
 	private JButton refreshButton;
 

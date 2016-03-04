@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 import javax.swing.border.TitledBorder;
 
 import gui.messenger.main.MessengerApp;
+import sound.util.SoundUtil;
 
 public class UserAuth extends JDialog {
 
@@ -88,6 +89,7 @@ public class UserAuth extends JDialog {
 							JOptionPane.showMessageDialog(null, "CANNOT LOG IN WITHOUT A USERNAME");
 						} else {
 							MessengerApp.username = usernameBox.getText();
+							SoundUtil.playSound("trumpets1.mp3");
 							dispose();
 						}
 					}
