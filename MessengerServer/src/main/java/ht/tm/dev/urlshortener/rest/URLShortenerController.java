@@ -22,9 +22,6 @@ import ht.tm.dev.urlshortener.util.WhoisUtil;
 @RestController
 public class URLShortenerController {
 
-	private final AtomicLong createCount = new AtomicLong();
-	private final AtomicLong getCount = new AtomicLong();
-
 	@RequestMapping("/send")
 	public boolean get(@RequestParam(required = true, value = "message", defaultValue = "") String message,
 			@RequestParam(required = true, value = "userauth", defaultValue = "") String userauth) {
